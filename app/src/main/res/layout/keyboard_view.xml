@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/options_bg"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width ="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:layout_constraintVertical_bias="1"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/messageLayoutTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/amiko"
+                android:text="No Message Selected. Please copy message to clipboard and then press decrypt button"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/textLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/options_bg"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/options_bg"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <EditText
+                        android:id="@+id/inputBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/white"
+                        android:hint="Enter your message"
+                        android:paddingHorizontal="10dp"
+                        android:tag="one" />
+
+                    <EditText
+                        android:id="@+id/box2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@color/white"
+                        android:hint="Enter your message"
+                        android:paddingHorizontal="10dp"
+                        android:tag="two" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/topBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/options_bg"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/secretButton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/ic_dec" />
+
+                <ImageView
+                    android:id="@+id/lockButton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_margin="6dp"
+                    android:src="@drawable/ic_lock" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="39dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiko"
+                    android:tag="heading"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/sendButton"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="11dp"
+                    android:src="@drawable/ic_send_button"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <android.inputmethodservice.KeyboardView
+                android:id="@+id/keyboardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/options_bg"
+                android:keyBackground="@drawable/keyboard_background"
+                android:keyPreviewHeight="30dp"
+                android:keyPreviewLayout="@layout/key_preview"
+                android:keyTextColor="#434343"
+                android:paddingBottom="8dp"
+                android:shadowRadius="0" />
+
+            <LinearLayout
+                android:id="@+id/secretMessageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/messageTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/amiko"
+                    android:text="No Message Selected. Please copy message to clipboard and then press decrypt button"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </LinearLayout>

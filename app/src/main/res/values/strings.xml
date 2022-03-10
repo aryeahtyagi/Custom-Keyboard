@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Custom Keyboard</string>
+    <string name="chars"> &amp;&#63;&#64;</string>
+
+    <string name="atrate">\@</string>
+    <string name="amper">\&amp;</string>
+    <string name="que">\?</string>
+    <string name="com">\"</string>
+</resources>

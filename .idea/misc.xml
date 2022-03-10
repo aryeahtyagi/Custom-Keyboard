@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/border.xml" value="0.139" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/button.xml" value="0.132" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_baseline_backspace_24.xml" value="0.144" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.139" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_baseline_keyboard_24.xml" value="0.132" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.144" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.139" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_baseline_upgrade_24.xml" value="0.144" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_baseline_upgrade_blue_24.xml" value="0.139" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_dec.xml" value="0.116" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_dot.xml" value="0.144" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_earth_grid_svgrepo_com.xml" value="0.144" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_lock.xml" value="0.116" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_secret.xml" value="0.132" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_send_button.xml" value="0.132" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/ic_space.xml" value="0.144" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/drawable/keyboard_background.xml" value="0.121" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/layout/key_preview.xml" value="0.25" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/layout/keyboard_view.xml" value="0.25" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/xml/custom_pad.xml" value="0.25" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/xml/method.xml" value="0.25" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/xml/number_pad.xml" value="0.25" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/xml/special_pad.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/aryea/AndroidStudioProjects/RISE/app/src/main/res/xml/upper_pad.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
